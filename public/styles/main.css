@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('https://images.unsplash.com/photo-1461696114087-397271a7aedc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #1e1e1e;
+}
+
+.weather-container {
+    background: rgba(243, 242, 242, 0.5);
+    padding: 20px 80px;
+    
+    border-radius: 10px;
+    text-align: center;
+   
+}
+
+.city-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.city-item {
+    margin: 5px 0;
+}
+
+input {
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 20px;
+}
+div{
+margin: 10px;
+}
+button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #111010;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
